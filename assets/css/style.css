@@ -1,0 +1,339 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5; }
+
+.logo-container span:first-child {
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: capitalize; }
+  .logo-container span:first-child.code {
+    color: #e24545;
+    display: block;
+    position: relative;
+    line-height: 1.2;
+    margin-bottom: 10px; }
+    .logo-container span:first-child.code:after {
+      display: block;
+      width: 10px;
+      height: 2px;
+      background-color: #e24545;
+      position: absolute;
+      content: ""; }
+  .logo-container span:first-child.it {
+    color: black;
+    text-transform: uppercase; }
+
+.logo-container span.store {
+  font-size: 12px;
+  letter-spacing: 8px;
+  text-transform: uppercase; }
+
+.codeit .container {
+  padding-left: 0;
+  padding-right: 0; }
+
+.codeit .navbar {
+  padding-left: 0;
+  padding-right: 0; }
+
+.codeit .navbar-light .navbar-nav .nav-link {
+  font-size: 13px;
+  color: #444;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.codeit .navbar-light .navbar-nav .active > .nav-link,
+.codeit .navbar-light .navbar-nav .nav-link.active,
+.codeit .navbar-light .navbar-nav .nav-link.show,
+.codeit .navbar-light .navbar-nav .nav-link:hover,
+.codeit .navbar-light .navbar-nav .show > .nav-link {
+  color: #e24545;
+  display: inline-block;
+  position: relative; }
+  .codeit .navbar-light .navbar-nav .active > .nav-link:before,
+  .codeit .navbar-light .navbar-nav .nav-link.active:before,
+  .codeit .navbar-light .navbar-nav .nav-link.show:before,
+  .codeit .navbar-light .navbar-nav .nav-link:hover:before,
+  .codeit .navbar-light .navbar-nav .show > .nav-link:before {
+    display: block;
+    width: 10px;
+    height: 2px;
+    bottom: 7px;
+    left: 7px;
+    background-color: #e24545;
+    position: absolute;
+    content: ""; }
+
+.codeit .navbar-light .cart-bill {
+  font-weight: bold;
+  color: #444;
+  line-height: 40px;
+  border: 2px solid;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 17px;
+  padding-right: 30px; }
+  .codeit .navbar-light .cart-bill .fa-shopping-bag {
+    color: #e24545;
+    margin-right: 5px;
+    display: inline-block; }
+
+.codeit .navbar-light .cart-quantity {
+  width: 10px;
+  position: relative;
+  height: 40px; }
+  .codeit .navbar-light .cart-quantity .circle {
+    position: absolute;
+    left: -18px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    line-height: 22px;
+    width: 32px;
+    height: 32px;
+    font-size: 11px;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 50%;
+    top: 6px; }
+
+.codeit .breadcrumbs {
+  background-image: url("../images/breadcr-bg.jpg"); }
+  .codeit .breadcrumbs .current-page {
+    color: #222;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: .75rem 0;
+    line-height: 140px; }
+
+.codeit .breadcrumb {
+  position: relative;
+  justify-content: flex-end;
+  background-color: transparent;
+  margin-bottom: 0;
+  padding: .75rem 0; }
+  .codeit .breadcrumb li {
+    font-weight: bold;
+    color: #888888;
+    line-height: 140px;
+    text-transform: uppercase; }
+    .codeit .breadcrumb li a {
+      color: #444; }
+
+.codeit .breadcrumb-item + .breadcrumb-item::before {
+  content: ">"; }
+
+.codeit .features {
+  border: 2px solid;
+  padding: 15px 45px 30px;
+  margin-bottom: 95px;
+  color: #444;
+  font-size: 12px;
+  position: relative; }
+  .codeit .features .feature {
+    width: 265px;
+    margin: 0 10px; }
+  .codeit .features .title {
+    color: #222;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .codeit .features .text {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 13px; }
+    .codeit .features .text:before {
+      display: block;
+      width: 10px;
+      height: 2px;
+      bottom: 0px;
+      left: 0px;
+      background-color: #ccc;
+      position: absolute;
+      content: ""; }
+  .codeit .features .icon {
+    font-size: 32px;
+    display: inline-block;
+    float: left;
+    height: 35px;
+    margin-right: 10px; }
+    .codeit .features .icon i {
+      line-height: 40px; }
+  .codeit .features:before {
+    position: absolute;
+    display: block;
+    height: 5px;
+    top: -4px;
+    right: 20px;
+    left: 20px;
+    background-color: white;
+    content: ""; }
+
+.codeit .subscribes {
+  background-color: #f6f6f6;
+  border-top: 3px solid #dddddd; }
+  .codeit .subscribes .btn-group {
+    flex-wrap: wrap; }
+  .codeit .subscribes .btn {
+    width: 53px; }
+  .codeit .subscribes .row {
+    padding: 60px 0; }
+    .codeit .subscribes .row > div {
+      height: 48px; }
+  .codeit .subscribes .message {
+    width: 300px;
+    color: #444;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold; }
+  .codeit .subscribes .form-control, .codeit .subscribes .input-group-text, .codeit .subscribes .btn {
+    color: #999;
+    border-radius: 0; }
+  .codeit .subscribes .input-group-text {
+    background-color: transparent; }
+  .codeit .subscribes .form-control {
+    height: 100%;
+    text-transform: uppercase;
+    width: 392px; }
+    @media (max-width: 768px) {
+      .codeit .subscribes .form-control {
+        width: 250px; } }
+
+.codeit .copyright {
+  background-color: #e6e6e6;
+  text-transform: uppercase; }
+  .codeit .copyright .text {
+    color: #888888;
+    font-size: 11px; }
+    .codeit .copyright .text strong {
+      font-weight: bold; }
+
+.codeit .btn {
+  border-radius: 0;
+  border-color: #cccccc;
+  text-align: center; }
+  @media (max-width: 768px) {
+    .codeit .btn {
+      width: auto; } }
+  .codeit .btn.btn-outline-secondary:not(:disabled):hover {
+    background-color: #e24545;
+    border-color: #e24545; }
+  .codeit .btn:not(:disabled):hover {
+    color: white; }
+
+.codeit .items .item {
+  margin: 0 auto;
+  padding-top: 25px;
+  border: 1px solid #eee;
+  max-width: 263px;
+  text-align: center;
+  position: relative; }
+  .codeit .items .item .image-block {
+    height: 190px;
+    position: relative; }
+    .codeit .items .item .image-block::before {
+      display: block;
+      width: 10px;
+      height: 2px;
+      background-color: #e24545;
+      position: absolute;
+      bottom: -40px;
+      left: 50%;
+      transform: translateX(-50%);
+      content: ""; }
+  .codeit .items .item .title, .codeit .items .item .price {
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 26px; }
+  .codeit .items .item .title {
+    font-size: 14px;
+    color: #222; }
+  .codeit .items .item .price {
+    color: #e24545;
+    font-size: 14px;
+    padding-bottom: 10px; }
+  .codeit .items .item .item-info {
+    position: relative;
+    z-index: 3; }
+  .codeit .items .item .actions {
+    margin-bottom: -1px; }
+  .codeit .items .item .item-info .btn {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-color: #eee; }
+  .codeit .items .item .remove-link {
+    display: none;
+    position: absolute;
+    line-height: 40px;
+    border: 2px solid;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0 22px;
+    top: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    z-index: 2;
+    color: white; }
+  .codeit .items .item .dark-hover {
+    z-index: 1;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8); }
+  .codeit .items .item:hover .dark-hover {
+    display: block; }
+  .codeit .items .item:hover .remove-link {
+    display: block; }
+  .codeit .items .item:hover .item-info {
+    background-color: #f6f6f6; }
+    .codeit .items .item:hover .item-info .btn {
+      background-color: #e24545;
+      border-color: #e24545;
+      color: white; }
+      .codeit .items .item:hover .item-info .btn:last-child {
+        border-left-color: #f6f6f6; }
+  .codeit .items .item:hover .image-block:before {
+    display: none; }
+
+.codeit .pagers {
+  margin-bottom: 50px; }
+  .codeit .pagers .btn {
+    padding: 0;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    border-width: 2px;
+    margin-left: 8px;
+    text-align: center; }
+    .codeit .pagers .btn:first-child {
+      margin-left: 0px; }
+    .codeit .pagers .btn.active {
+      color: #e24545;
+      border-color: #444444;
+      background-color: transparent;
+      cursor: default; }
+
+.codeit .search .input-group {
+  text-align: right; }
+
+.codeit .search input {
+  max-width: 250px; }
+
+.codeit .search button.clear-list {
+  border: 2px solid #444444;
+  height: 38px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 24px; }
+
+.codeit footer {
+  padding-top: 95px;
+  border-top: 1px solid #eee; }
